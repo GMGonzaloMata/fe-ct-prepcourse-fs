@@ -4,6 +4,8 @@ function dePalabrasAFrase(palabras) {
   // con un espacio entre cada palabra.
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'.
   // Tu código:
+  return palabras.join(" ");
 }
-
+var array = ["Hola", "Mundo"];
+console.log(dePalabrasAFrase(array));
 module.exports = dePalabrasAFrase;
